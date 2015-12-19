@@ -213,11 +213,6 @@ html.fsvs #fsvs-pagination li:last-child {
 
 /*----RESULTS------*/
 
-#container-results {
-	background:#2a2e2f;
-	background-size:cover;
-	min-height:100%;
-}
 
 .scrollbar
 {
