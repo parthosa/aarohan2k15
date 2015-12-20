@@ -454,7 +454,14 @@ html.fsvs #fsvs-pagination li:last-child {
 
 
 @media (max-width: 600px) {
-	* { font-size:13px; }
+	* { font-size:13px;
+	 }
+		#content img {
+		width: 60%;
+		position: relative;
+		left:-20%;
+	}
+
 	#header {
 	height:100px;
 }
@@ -476,6 +483,8 @@ html.fsvs #fsvs-pagination li:last-child {
 	max-height: 50%;
 	}
 }
+
+
 
 
 
