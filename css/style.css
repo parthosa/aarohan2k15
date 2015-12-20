@@ -438,6 +438,7 @@ html.fsvs #fsvs-pagination li:last-child {
 	}
 	#container-events ul li div.wrapper .content {
 	margin-top:8px;
+	max-height: 60%;
 	}
 }
 @media (max-width: 650px) {
@@ -450,6 +451,8 @@ html.fsvs #fsvs-pagination li:last-child {
 	         overflow-y:scroll !important;
 	}
 }
+
+
 @media (max-width: 600px) {
 	* { font-size:13px; }
 	#header {
@@ -470,8 +473,13 @@ html.fsvs #fsvs-pagination li:last-child {
 	}
 	#container-events ul li div.wrapper .content {
 	margin-top:8px;
+	max-height: 50%;
 	}
 }
+
+
+
+
 
 
 	
