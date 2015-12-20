@@ -393,6 +393,10 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 
+#codevoyage {
+	background-image: url("../images/codevoyage.jpg");
+}
+
 
 /*----RESPONSIVENESS----*/
 @media (max-width: 920px) {
