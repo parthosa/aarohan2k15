@@ -347,37 +347,85 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 /*-----EVENTS-----*/
-.container-events {
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	top:0;
-	left: 0;
-	padding: 7% 8%;
+#container-eventa {
+	background: url(../images/events.png) center no-repeat;
+	background-size:cover;
+	min-height:100%;
+	color:#FFF;
+}
+#container-eventa ul li {
+	display:inline-block;
+	width:80%;
+	vertical-align:top;
+	color:#ffffff;
+}
+#container-eventa ul li div.wrapper {
+	width:100%;
+	margin: 10px auto 0px 8%;
+	text-align:center;
+	font-size:50px;
+}
+#container-eventa ul li div.wrapper .headline h1 {
+	font-size:80px;
+	font-weight:500;	
+	padding-bottom:10px;
+	margin-left: 130px;
+	color:#ffffff;
 }
 
-.event_headline
-{
-	display: inline-block;
-	font-size: 40px;
-	border-bottom: 1px solid #444;
-	margin-bottom: 5px;
+#container-eventa ul li div.wrapper .headline p {
+	font-size:30px;
+	font-weight:500;
+	padding-bottom:10px;
+	margin-left: 130px;
+	color:#ffffff;
 }
-.event_content
-{
+
+#container-eventa ul li div.wrapper .content {
+	margin-top:20px;
 	text-align:justify;
-	padding-top: 20px;
-	width: 65%;
-	display: inline-block;
-	font-size: 15px;
+	font-size:20px;
+	color:#ffffff;
 }
-.brown
-{
-	color:#5A260A;
+
+
+#container-eventb {
+	background: url(../images/code1.jpg) center no-repeat;
+	background-size:cover;
+	min-height:100%;
+	color:#FFF;
 }
-.stblack
-{
-	color:#333;
+#container-eventb ul li {
+	display:inline-block;
+	width:80%;
+	vertical-align:top;
+}
+#container-eventb ul li div.wrapper {
+	width:100%;
+	margin: 10px auto 0px 8%;
+	text-align:center;
+	font-size:50px;
+}
+#container-eventb ul li div.wrapper .headline h1 {
+	font-size:80px;
+	font-weight:500;	
+	padding-bottom:10px;
+	margin-left: 130px;
+	color:#ffffff;
+}
+
+#container-eventb ul li div.wrapper .headline p {
+	font-size:30px;
+	font-weight:500;
+	padding-bottom:10px;
+	margin-left: 130px;
+	color:#ffffff;
+}
+#container-eventb ul li div.wrapper .content {
+	margin-top:20px;
+	text-align:justify;
+	font-size:20px;
+	color:#ffffff;
 }
 
 
