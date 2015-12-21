@@ -432,18 +432,18 @@ html.fsvs #fsvs-pagination li:last-child {
 
 
 /*------Contact---*/
-#container-contact {
-	background: #F4f4f4  center no-repeat;
+#container-contact,#payment {
+
 	background-size:cover;
-	min-height:100%;
-	color:#545454;
+	margin: 7% auto;
 	text-align:center;
 }
-#container-contact div.headline h1 {
+
+div.headline h1 {
 	font-weight:500;
-	font-size:40px;
-	padding:25px;
-	font-weight: bold;
+	font-size:30px;
+	padding:10px;
+	
 }
 #container-contact .content .headline {
 	padding-top:25px;
@@ -478,6 +478,10 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 @media (max-width: 1024px) {
 	* { font-size:15px; }
+
+	.center-content img{
+		width:75%;
+	}
 	#header-logo .headline {
 	font-size:32px;
 	}
@@ -530,6 +534,32 @@ html.fsvs #fsvs-pagination li:last-child {
 		position: relative;
 		left:-20%;
 	}
+
+	.center-content .center-bottom ul{
+		text-align: inherit;
+	}
+
+
+		.center-content .center-bottom ul li{
+			margin:0px -36.67px 0px 0px;
+			position: relative; left: 0%;
+		}
+
+		.center-content .center-bottom ul li .headline{
+			font-size: 70%;
+		}
+
+		#content {
+			position: absolute; bottom: 5%; width: 90%; left: 19%;
+		}
+		#content .content {
+			display: none;
+		}
+
+
+		#header-logo img{
+			width: 80%;
+		}
 
 	#header {
 	height:100px;
