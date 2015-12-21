@@ -27,9 +27,6 @@ body {
 	background-image: url("../images/gplay.png");
 }
 /* ----HEADER-MAIN-------- */
-#header {
-	height:280px;
-}
 .nav-button {
 	width: 45px;
 	height: 45px;
@@ -191,7 +188,6 @@ html.fsvs #fsvs-pagination li:last-child {
 
 /*----CONTENT-------*/
 .center-content {
-	width:630px;
 	margin:0 auto;
 }
 .center-content img {
@@ -200,10 +196,10 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 .center-content .center-bottom ul li {
 	display:inline-block !important;
-	width:158px !important;
+	width:25%;
 	vertical-align:top;
 	text-align:center;
-	margin:0px 72.33px 0 0;
+	margin: 2%;
 	
 }
 .center-content .center-bottom ul li .headline {
@@ -369,13 +365,13 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 /*------Contact---*/
-#container-contact,#payment {
-	margin: 7% auto;
+#container-contact {
+	background: #D4D5D8  center no-repeat;
 	background-size:cover;
+	min-height:100%;
 	text-align:center;
 }
-
-div.headline h1 {
+#container-contact div.headline h1 {
 	font-weight:500;
 	font-size:30px;
 	padding:10px;
@@ -462,28 +458,6 @@ div.headline h1 {
 		left:-20%;
 	}
 
-	.bb-custom-firstpage h1{
-		font-size: 14px;
-	}
-
-		.center-content .center-bottom ul li{
-			margin:0px -36.67px 0px 0px;
-
-		}
-
-		.center-content .center-bottom ul li .headline{
-			font-size: 14px;
-		}
-
-		#content {
-			bottom: 25%;
-		}
-		#content .content {
-			display: none;
-		}
-
-
-
 	#header {
 	height:100px;
 }
@@ -505,6 +479,17 @@ div.headline h1 {
 	max-height: 50%;
 	}
 }
+
+
+
+
+
+
+
+
+	
+	
+
 
 
 
