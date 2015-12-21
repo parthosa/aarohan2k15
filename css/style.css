@@ -384,15 +384,20 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 #container-eventa ul li div.wrapper .content {
-	margin-top:20px;
+	margin-top:15px;
 	text-align:justify;
-	font-size:20px;
+	font-size:16px;
 	color:#ffffff;
 }
 
 
+
+.codevoyage{
+	background: url("../images/code1.jpg")
+}
+
 #container-eventb {
-	background: url(../images/code1.jpg) center no-repeat;
+	background:rgba(65, 90, 128, 0.65) none repeat scroll 0% 0%;
 	background-size:cover;
 	min-height:100%;
 	color:#FFF;
@@ -426,7 +431,7 @@ html.fsvs #fsvs-pagination li:last-child {
 #container-eventb ul li div.wrapper .content {
 	margin-top:15px;
 	text-align:justify;
-	font-size:18px;
+	font-size:16px;
 	color:#ffffff;
 }
 
@@ -462,9 +467,7 @@ div.headline h1 {
 }
 
 
-#codevoyage {
-	background-image: url("../images/codevoyage.jpg");
-}
+
 
 
 /*----RESPONSIVENESS----*/
@@ -476,8 +479,28 @@ div.headline h1 {
 	width:100%;
 	}
 }
+
+
+@media (max-width: 720px){
+
+
+#container-eventa ul li div.wrapper .headline h1 , #container-eventb  ul li div.wrapper .headline h1{
+		font-size:50px; 
+	}
+
+	#container-eventa ul li div.wrapper .headline p , #container-eventb ul li div.wrapper .headline p{
+		font-size: 20px;
+	}
+
+#container-eventa ul li div.wrapper .content,#container-eventb ul li div.wrapper .content{
+	font-size: 14px;
+}
+}
 @media (max-width: 1024px) {
 	* { font-size:15px; }
+
+
+
 
 	.center-content img{
 		width:75%;
@@ -523,10 +546,19 @@ div.headline h1 {
 	.slide { 
 	         overflow-y:scroll !important;
 	}
+
+	
 }
 
 
+@media (max-width: 560px) {
+	#container-eventa ul li div.wrapper .content,#container-eventb ul li div.wrapper .content{
+	font-size: 9px;
+}
+}
+
 @media (max-width: 600px) {
+
 	* { font-size:13px;
 	 }
 		#content img {
@@ -539,7 +571,17 @@ div.headline h1 {
 		text-align: inherit;
 	}
 
+	#container-eventa ul li div.wrapper .headline h1 , #container-eventb  ul li div.wrapper .headline h1{
+		font-size:50px; 
+	}
 
+	#container-eventa ul li div.wrapper .headline p , #container-eventb ul li div.wrapper .headline p{
+		font-size: 20px;
+	}
+
+#container-eventa ul li div.wrapper .content , #container-eventb ul li div.wrapper .content{
+	font-size: 14px;
+}
 		.center-content .center-bottom ul li{
 			margin:0px -36.67px 0px 0px;
 			position: relative; left: 0%;
