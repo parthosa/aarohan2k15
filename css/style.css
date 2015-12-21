@@ -14,6 +14,7 @@
 	font-family: Ebrima;
 	font-size:16px;
 	cursor: default;
+	color: #444;
 	
 }
 ul { 
@@ -83,6 +84,7 @@ body {
 	position:relative;
 	max-width: 400px;
 	top:-2px;
+	color: white;
 }
 .header-left ul li .ring {
 	display:inline-block;
@@ -324,10 +326,12 @@ html.fsvs #fsvs-pagination li:last-child {
 	padding-bottom:10px;
 	border-bottom: 1px solid #FFF;
 	margin-bottom:25px;
+	color: white;
 
 }
 #container-school ul li .left-pane-content .content {
 	transition:all ease-in-out 0.5s; 
+	color: white;
 }
 .red-overlay {
 	position:absolute;
@@ -365,7 +369,17 @@ html.fsvs #fsvs-pagination li:last-child {
 	padding-top: 20px;
 	width: 65%;
 	display: inline-block;
+	font-size: 15px;
 }
+.brown
+{
+	color:#5A260A;
+}
+.stblack
+{
+	color:#333;
+}
+
 
 /*------Contact---*/
 #container-contact {
