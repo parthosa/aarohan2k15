@@ -369,13 +369,13 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 /*------Contact---*/
-#container-contact {
-	background: #D4D5D8  center no-repeat;
+#container-contact,#payment {
+	margin: 7% auto;
 	background-size:cover;
-	min-height:100%;
 	text-align:center;
 }
-#container-contact div.headline h1 {
+
+div.headline h1 {
 	font-weight:500;
 	font-size:30px;
 	padding:10px;
