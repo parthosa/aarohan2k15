@@ -30,17 +30,19 @@ body {
 /* ----HEADER-MAIN-------- */
 .nav-button {
 	width: 45px;
-	height: 45px;
-	background:transparent;
-	padding:5px;
-	text-align:center;
-	font-size:30px;
-	position:absolute;
-	left: 20px;
-	top:20px;
-	color: #444;
-	z-index:1000;
-    transition:all ease-in-out 0.2s;
+    height: 45px;
+    border-radius: 50%;
+    background: #fafafa;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    padding: 1px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    color: #444;
+    z-index: 1000;
+    transition: all ease-in-out 0.2s;
 }
 .go-deep {
 	-webkit-transform: rotate(-90deg);
@@ -355,7 +357,7 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 #container-eventa ul li {
 	display:inline-block;
-	width:80%;
+	width:85%;
 	vertical-align:top;
 	color:#ffffff;
 }
@@ -368,8 +370,8 @@ html.fsvs #fsvs-pagination li:last-child {
 #container-eventa ul li div.wrapper .headline h1 {
 	font-size:80px;
 	font-weight:500;	
-	padding-bottom:10px;
-	margin-left: 130px;
+	/*padding-bottom:10px;*/
+	/*margin-left: 130px;*/
 	color:#ffffff;
 }
 
@@ -377,7 +379,7 @@ html.fsvs #fsvs-pagination li:last-child {
 	font-size:30px;
 	font-weight:500;
 	padding-bottom:10px;
-	margin-left: 130px;
+	/*margin-left: 130px;*/
 	color:#ffffff;
 }
 
@@ -397,7 +399,7 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 #container-eventb ul li {
 	display:inline-block;
-	width:80%;
+	width:85%;
 	vertical-align:top;
 }
 #container-eventb ul li div.wrapper {
@@ -409,8 +411,8 @@ html.fsvs #fsvs-pagination li:last-child {
 #container-eventb ul li div.wrapper .headline h1 {
 	font-size:80px;
 	font-weight:500;	
-	padding-bottom:10px;
-	margin-left: 130px;
+	/*padding-bottom:10px;*/
+	/*margin-left: 130px;*/
 	color:#ffffff;
 }
 
@@ -418,13 +420,13 @@ html.fsvs #fsvs-pagination li:last-child {
 	font-size:30px;
 	font-weight:500;
 	padding-bottom:10px;
-	margin-left: 130px;
+	/*margin-left: 130px;*/
 	color:#ffffff;
 }
 #container-eventb ul li div.wrapper .content {
-	margin-top:20px;
+	margin-top:15px;
 	text-align:justify;
-	font-size:20px;
+	font-size:18px;
 	color:#ffffff;
 }
 
