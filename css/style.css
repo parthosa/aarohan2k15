@@ -462,6 +462,28 @@ div.headline h1 {
 		left:-20%;
 	}
 
+	.bb-custom-firstpage h1{
+		font-size: 14px;
+	}
+
+		.center-content .center-bottom ul li{
+			margin:0px -36.67px 0px 0px;
+
+		}
+
+		.center-content .center-bottom ul li .headline{
+			font-size: 14px;
+		}
+
+		#content {
+			bottom: 25%;
+		}
+		#content .content {
+			display: none;
+		}
+
+
+
 	#header {
 	height:100px;
 }

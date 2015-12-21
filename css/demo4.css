@@ -158,11 +158,20 @@
 	.bb-custom-side {
 		font-size: 70%;
 	}
+	.bb-custom-firstpage h1{
+		position: absolute; top: 251px; left: 24%;
+		font-size: 150%;
+	}
 }
 
 @media screen and (max-width: 33em){
 	.bb-custom-side {
 		font-size: 60%;
 	}
+	.bb-custom-firstpage h1{
+		position: absolute; top:275px; left: 28%;
+		font-size: 138%;
+	}
+
 }
 
