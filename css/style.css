@@ -13,7 +13,7 @@
 	padding:0;
 	font-family: Ebrima;
 	font-size:16px;
-	cursor: default;
+	cursor: inherit;
 	color: #444;
 	
 }
@@ -42,6 +42,7 @@ body {
     top: 20px;
     color: #444;
     z-index: 1000;
+    cursor: pointer;
     transition: all ease-in-out 0.2s;
 }
 .go-deep {
@@ -97,6 +98,7 @@ body {
 	margin-right:6px;
 	border-radius:25px;
 	border:3px solid #666;
+
 }
 
 /*---SLIDER----*/
@@ -369,7 +371,7 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 #container-eventa ul li div.wrapper .headline h1 {
 	font-size:80px;
-	font-weight:500;	
+	font-weight:bold;	
 	/*padding-bottom:10px;*/
 	/*margin-left: 130px;*/
 	color:#ffffff;
@@ -377,7 +379,7 @@ html.fsvs #fsvs-pagination li:last-child {
 
 #container-eventa ul li div.wrapper .headline p {
 	font-size:30px;
-	font-weight:500;
+	font-weight:bold;
 	padding-bottom:10px;
 	/*margin-left: 130px;*/
 	color:#ffffff;
@@ -386,7 +388,7 @@ html.fsvs #fsvs-pagination li:last-child {
 #container-eventa ul li div.wrapper .content {
 	margin-top:15px;
 	text-align:justify;
-	font-size:16px;
+	font-size:18px;
 	color:#ffffff;
 }
 
@@ -415,7 +417,7 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 #container-eventb ul li div.wrapper .headline h1 {
 	font-size:80px;
-	font-weight:500;	
+	font-weight:bold;	
 	/*padding-bottom:10px;*/
 	/*margin-left: 130px;*/
 	color:#ffffff;
@@ -423,7 +425,7 @@ html.fsvs #fsvs-pagination li:last-child {
 
 #container-eventb ul li div.wrapper .headline p {
 	font-size:30px;
-	font-weight:500;
+	font-weight:bold;
 	padding-bottom:10px;
 	/*margin-left: 130px;*/
 	color:#ffffff;
@@ -431,7 +433,7 @@ html.fsvs #fsvs-pagination li:last-child {
 #container-eventb ul li div.wrapper .content {
 	margin-top:15px;
 	text-align:justify;
-	font-size:16px;
+	font-size:18px;
 	color:#ffffff;
 }
 
@@ -445,7 +447,7 @@ html.fsvs #fsvs-pagination li:last-child {
 }
 
 div.headline h1 {
-	font-weight:500;
+	font-weight:bold;
 	font-size:30px;
 	padding:10px;
 	
